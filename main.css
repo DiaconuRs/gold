@@ -1,0 +1,92 @@
+/* 
+
+Colors:
+
+#353935 - Onyx
+white
+#A48111 - Luxury-Gold
+black(text-only)
+Fonts:
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Slabo 27px', serif;
+
+*/
+
+p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem !important;
+}
+
+/* NAVBAR */
+
+#Header .navbar {
+    background-color: #A48111;
+    padding: 15px 10%;
+}
+
+#Header .navbar .container-fluid {
+    padding-left: 0px;
+}
+
+#Header .collapse ul {
+    margin-left: auto;
+}
+
+#Header .navbar {
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 1px;
+}
+
+#Header .navbar .navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+    margin: 0px;
+}
+
+/* WELCOME */
+
+#welcome {
+    background-image: url("imgs/bkg_black_marble.jpg");
+    height: auto;
+    color: white;
+    padding: 10% calc(10% - 10px);
+    margin-right: auto;
+}
+
+#welcome #container-left {
+    padding: 30px 10px;
+    background-color: #A48111;
+    margin-left: 0px;
+    color: white;
+}
+
+#welcome p {
+    margin-top: 50px;
+    width: 90%;
+}
+
+#welcome #container-right {
+    background-color: white;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+/* FIRST SECTION */
+
+#Section0 {
+    padding: 8% 5%;
+}
+
+#Section0 .row-img {
+    width: 150px;
+}
+
+#Section0 .col-lg-4 {
+    padding: 20px;
+}
