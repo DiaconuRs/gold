@@ -80,7 +80,7 @@ h1 {
 /* FIRST SECTION */
 
 #Section0 {
-    padding: 8% 5%;
+    padding: 10% calc(10% - 20px);
 }
 
 #Section0 .row-img {
@@ -89,4 +89,22 @@ h1 {
 
 #Section0 .col-lg-4 {
     padding: 20px;
+}
+
+/* SECOND SECTION */
+
+#Section1 {
+    background-color: #A48111;
+}
+
+#Section1 .container-liquid{
+    padding: 10% 10%;
+}
+
+#Section1 #sliderPort .container {
+    width: 60%;
+}
+
+#Section1 #sliderPort #slide-indicators {
+    bottom: -40px;
 }
