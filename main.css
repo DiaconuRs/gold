@@ -21,7 +21,7 @@ p {
 
 h1 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 3rem !important;
+    font-size: 3rem;
 }
 
 /* NAVBAR */
@@ -29,6 +29,10 @@ h1 {
 #Header .navbar {
     background-color: #A48111;
     padding: 15px 10%;
+}
+
+#Header .navbar h1 {
+    font-size: 3rem !important;
 }
 
 #Header .navbar .container-fluid {
@@ -59,6 +63,10 @@ h1 {
     margin-right: auto;
 }
 
+#welcome .container {
+    padding: 30px 10px;
+}
+
 #welcome #container-left {
     padding: 30px 10px;
     background-color: #A48111;
@@ -75,6 +83,12 @@ h1 {
     background-color: white;
     margin: 0px;
     margin-top: 40px;
+}
+
+@media (min-width: 1000px) {
+    #welcome #container-right {
+        margin-top: 0px;
+    }
 }
 
 /* FIRST SECTION */
@@ -98,13 +112,47 @@ h1 {
 }
 
 #Section1 .container-liquid{
-    padding: 10% 10%;
+    padding: 10% 0%;
 }
 
 #Section1 #sliderPort .container {
-    width: 60%;
+    width: 70%;
 }
 
 #Section1 #sliderPort #slide-indicators {
     bottom: -40px;
+}
+
+#Section1 #sliderPort #slide-indicators li {
+    padding: 0px 5px;
+}
+
+#Section1 #sliderPort .slider-controls {
+    position: absolute;
+}
+
+@media (max-width: 750px) {
+    #Section1 #sliderPort .container {
+        width: 100%;
+        
+    }
+
+    #Section1 #sliderPort h1 {
+        font-size: 40px;
+    }
+
+    #Section1 #sliderPort p {
+        font-size: 17px;
+        width: 50%;
+    }
+}
+
+/* THIRD SECTION */
+
+#Section2 .container {
+    padding: 50px 50px;
+}
+
+#Section2 .card-sec-2 {
+    padding: 30px 0px;
 }
